@@ -6,7 +6,6 @@ Product Management
 Deployment Instructions
 
 Prerequisite : 
-
 	Run the project available at https://github.com/deepaksundar/my-retail-product-price-mgmt.git in the same machine where this project to be deployed or deploy it anywhere and configure the url host in appliction.proprties
 
 	1) Replace the credentials of mongoDB, OAuth Server details, OAuth credentials in the application.properties file
