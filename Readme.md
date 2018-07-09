@@ -5,7 +5,8 @@ Product Management
 
 Deployment Instructions
 
-Prerequisite
+Prerequisite : 
+
 	Run the project available at https://github.com/deepaksundar/my-retail-product-price-mgmt.git in the same machine where this project to be deployed or deploy it anywhere and configure the url host in appliction.proprties
 
 	1) Replace the credentials of mongoDB, OAuth Server details, OAuth credentials in the application.properties file
@@ -52,9 +53,9 @@ Required Headers :
 	Authorization = "Bearer -accessToken-"
 ________________________________________________________________________________________________________________________________________________________________________
 
-2) GET /products/-productId-
+2) GET /products/"productId"
 	
-Description : This will respond with the product details(price, description) of the product with an id -productId-
+Description : This will respond with the product details(price, description) of the product with an id "productId"
 
 Required Headers :
 	Accept = "application/json"
@@ -71,9 +72,9 @@ Required Headers :
 	Authorization = "Bearer -accessToken-"
 ________________________________________________________________________________________________________________________________________________________________________
 
-4) GET /products/descriptions/-productId-
+4) GET /products/descriptions/"productId"
 	
-Description : This will respond with the description of the product with id -productId-
+Description : This will respond with the description of the product with id "productId"
 
 Required Headers :
 	Accept = "application/json"
@@ -110,9 +111,9 @@ Request Body :
         "product_desc": "Shoes"
     }
 _____________________________________________________________________________________________________________________________________________________________________
-7) DELETE /products/descriptions/-productId-
+7) DELETE /products/descriptions/"productId"
 	
-Description : This will delete the product description of the product with an Id -productId-
+Description : This will delete the product description of the product with an Id "productId"
 
 Required Headers :
 	Authorization = "Bearer -accessToken-"
